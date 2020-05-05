@@ -29,6 +29,13 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`raleway\:400,600`, `roboto\:300,400`],
+        display: "swap",
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-postcss",
   ],
