@@ -3,8 +3,8 @@ import React from "react"
 
 export default function Home() {
   return (
-    <Layout>
-      <h1>Home</h1>
+    <Layout title="Pozlacování a polychromie">
+      <h1>Pozlacování a polychromie</h1>
     </Layout>
   )
 }
