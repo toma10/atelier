@@ -4,137 +4,205 @@
       "id": "g1",
       "order": 1,
       "title": "Lustr",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g1.jpg",
-      "before": ["/pozlacovani-a-polychromie/g1-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g1-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g1.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g1-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g1-after.jpg"
+      ]
     },
     {
       "id": "g2",
       "order": 2,
       "title": "Zrcadlo",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g2.jpg",
-      "before": ["/pozlacovani-a-polychromie/g2-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g2-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g2.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g2-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g2-after.jpg"
+      ]
     },
     {
       "id": "g3",
       "order": 3,
       "title": "Ornamenty",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g3.jpg",
-      "before": ["/pozlacovani-a-polychromie/g3-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g3-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g3.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g3-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g3-after.jpg"
+      ]
     },
     {
       "id": "g4",
       "order": 4,
       "title": "Reliéf",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g4.jpg",
-      "before": ["/pozlacovani-a-polychromie/g4-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g4-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g4.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g4-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g4-after.jpg"
+      ]
     },
     {
       "id": "g5",
       "order": 5,
       "title": "Reliéf",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g5.jpg",
-      "before": ["/pozlacovani-a-polychromie/g5-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g5-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g5.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g5-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g5-after.jpg"
+      ]
     },
     {
       "id": "g6",
       "order": 6,
       "title": "Hodiny",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g6.jpg",
-      "before": ["/pozlacovani-a-polychromie/g6-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g6-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g6.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g6-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g6-after.jpg"
+      ]
     },
     {
       "id": "g7",
       "order": 7,
       "title": "Ornamenty",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g7.jpg",
-      "before": ["/pozlacovani-a-polychromie/g7-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g7-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g7.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g7-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g7-after.jpg"
+      ]
     },
     {
       "id": "g8",
       "order": 8,
       "title": "Kazetový strop",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g8.jpg",
-      "before": ["/pozlacovani-a-polychromie/g8-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g8-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g8.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g8-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g8-after.jpg"
+      ]
     },
     {
       "id": "g9",
       "order": 9,
       "title": "Koruna",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g9.jpg",
-      "before": ["/pozlacovani-a-polychromie/g9-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g9-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g9.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g9-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g9-after.jpg"
+      ]
     },
     {
       "id": "g10",
       "order": 10,
       "title": "Canopy",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g10.jpg",
-      "before": ["/pozlacovani-a-polychromie/g10-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g10-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g10.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g10-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g10-after.jpg"
+      ]
     },
     {
       "id": "g11",
       "order": 11,
       "title": "Kristus",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g11.jpg",
-      "before": ["/pozlacovani-a-polychromie/g11-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g11-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g11.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g11-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g11-after.jpg"
+      ]
     },
     {
       "id": "g12",
       "order": 12,
       "title": "Kristus (korpus dřevo, výšky 100 cm)",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g12.jpg",
-      "before": ["/pozlacovani-a-polychromie/g12-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g12-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g12.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g12-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g12-after.jpg"
+      ]
     },
     {
       "id": "g13",
       "order": 13,
       "title": "František z Assisi (doplnění ulomené ručky a retuše)",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g13.jpg",
-      "before": ["/pozlacovani-a-polychromie/g13-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g13-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g13.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g13-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g13-after.jpg"
+      ]
     },
     {
       "id": "g14",
       "order": 14,
       "title": "Hodiny s alabastrovými sloupky",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g14.jpg",
-      "before": ["/pozlacovani-a-polychromie/g14-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g14-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g14.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g14-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g14-after.jpg"
+      ]
     },
     {
       "id": "g15",
       "order": 15,
       "title": "Betlém",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g15.jpg",
-      "before": ["/pozlacovani-a-polychromie/g15-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g15-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g15.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g15-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g15-after.jpg"
+      ]
     },
     {
       "id": "g16",
       "order": 16,
       "title": "Taburet",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g16.jpg",
-      "before": ["/pozlacovani-a-polychromie/g16-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g16-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g16.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g16-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g16-after.jpg"
+      ]
     },
     {
       "id": "g17",
       "order": 17,
       "title": "Kněžské křeslo",
-      "thumbnail": "/pozlacovani-a-polychromie/tn_g17.jpg",
-      "before": ["/pozlacovani-a-polychromie/g17-before.jpg"],
-      "after": ["/pozlacovani-a-polychromie/g17-after.jpg"]
+      "thumbnail": "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/tn_g17.jpg",
+      "before": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g17-before.jpg"
+      ],
+      "after": [
+        "https://res.cloudinary.com/toma10/image/upload/v1588779972/atelier-restaurovani.cz/pozlacovani-a-polychromie/g17-after.jpg"
+      ]
     }
   ]
 }
