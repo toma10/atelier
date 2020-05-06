@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 import Section from "./section"
 import SectionTitle from "./section-title"
-import pozlacovaniAPolychromie from "../images/pozlacovani-a-polychromie.jpg"
-import restaurovaniNabytku from "../images/restaurovani-nabytku.jpg"
-import rezbaVolnaTvorba from "../images/rezba-volna-tvorba.jpg"
+import pozlacovaniAPolychromie from "@images/pozlacovani-a-polychromie.jpg"
+import restaurovaniNabytku from "@images/restaurovani-nabytku.jpg"
+import rezbaVolnaTvorba from "@images/rezba-volna-tvorba.jpg"
 
 export default function WhatCanIHelpYouWith() {
   return (

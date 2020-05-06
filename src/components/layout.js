@@ -4,21 +4,28 @@ import PropTypes from "prop-types"
 import React from "react"
 import SEO from "./seo"
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, hideFooter, children }) {
   return (
-    <>
+    <div>
       <SEO title={title} />
       <header>
         <Nav />
       </header>
       <main>{children}</main>
-      <footer>
-        <Footer />
-      </footer>
-    </>
+      {hideFooter ? null : (
+        <footer>
+          <Footer />
+        </footer>
+      )}
+    </div>
   )
 }
 
 SEO.propTypes = {
   title: PropTypes.string,
+  hideFooter: PropTypes.bool,
+}
+
+SEO.defaultProps = {
+  hideFooter: false,
 }

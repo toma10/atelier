@@ -1,7 +1,7 @@
 import React from "react"
 import Section from "./section"
-import heroAfter from "../images/hero-after.jpg"
-import heroBefore from "../images/hero-before.jpg"
+import heroAfter from "@images/hero-after.jpg"
+import heroBefore from "@images/hero-before.jpg"
 
 export default function Hero() {
   return (
