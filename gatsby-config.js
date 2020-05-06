@@ -41,6 +41,16 @@ module.exports = {
         display: "swap",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-48643101-4",
+        head: false,
+        respectDNT: true,
+        exclude: [],
+        defer: true,
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-postcss",
   ],
