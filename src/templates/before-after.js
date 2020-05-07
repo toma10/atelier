@@ -20,7 +20,7 @@ export default function BeforeAfter({
           onSwipedLeft={() => navigate(prevItemLink)}
           onSwipedRight={() => navigate(nextItemLink)}
         >
-          <div className="grid gap-12 mt-8 lg:grid-cols-2">
+          <div className="grid items-center gap-12 mt-8 lg:grid-cols-2">
             <div>
               <div className="flex flex-col items-center space-y-10">
                 {item.before.map((image, index) => (
