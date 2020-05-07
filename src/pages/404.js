@@ -1,7 +1,7 @@
 import Layout from "@components/layout"
 import React from "react"
 
-export default function Home() {
+export default function NotFound() {
   return (
     <Layout title="404">
       <div className="flex items-center justify-center w-full h-full">
