@@ -49,7 +49,11 @@ export default function Nav() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex">
-            <Link to="/" className="flex items-center flex-shrink-0">
+            <Link
+              to="/"
+              className="flex items-center flex-shrink-0"
+              aria-label="Přejít na domácí stránku"
+            >
               <Logo />
               <h1 className="hidden font-semibold lg:block lg:ml-3">
                 AteliérRestaurování.cz
@@ -70,6 +74,7 @@ export default function Nav() {
             <button
               onClick={() => setMenuOpen(menuOpen => !menuOpen)}
               className="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+              aria-label="Menu dropdown"
             >
               <svg
                 className="block w-6 h-6"
