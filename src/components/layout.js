@@ -21,11 +21,11 @@ export default function Layout({ title, hideFooter, children }) {
   )
 }
 
-SEO.propTypes = {
+Layout.propTypes = {
   title: PropTypes.string,
   hideFooter: PropTypes.bool,
 }
 
-SEO.defaultProps = {
+Layout.defaultProps = {
   hideFooter: false,
 }
