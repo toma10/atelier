@@ -35,7 +35,11 @@ module.exports = {
         "monospace",
       ],
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        container: "126rem",
+      },
+    },
   },
   variants: {
     opacity: ["responsive", "hover", "focus", "group-hover"],

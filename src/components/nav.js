@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import Logo from "./logo"
 import cn from "classnames"
+import Container from "./container"
 
 const NavLink = props => (
   <Link
@@ -46,7 +47,7 @@ export default function Nav() {
 
   return (
     <nav className="relative bg-white shadow">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <Container>
         <div className="flex justify-between h-20">
           <div className="flex">
             <Link
@@ -105,7 +106,7 @@ export default function Nav() {
             </button>
           </div>
         </div>
-      </div>
+      </Container>
 
       <div className={`${cn([menuOpen ? "block" : "hidden", "lg:hidden"])}`}>
         <div className="pt-2 pb-3 space-y-1">
