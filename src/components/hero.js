@@ -23,11 +23,15 @@ export default function Hero() {
         <div className="lg:w-1/2">
           <div className="relative w-full max-w-xs">
             <img
+              width="760"
+              height="760"
               src={heroBefore}
               alt="Taburet před restaurování a pozlacení"
               className="relative hidden w-full lg:block lg:z-1"
             />
             <img
+              width="760"
+              height="760"
               src={heroAfter}
               alt="Taburet po restaurování a pozlacení"
               className="w-full lg:inset-0 lg:opacity-0 lg:absolute lg:transition-opacity lg:duration-1000 lg:delay-200 lg:z-2 lg:group-hover:opacity-100"
