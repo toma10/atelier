@@ -15,8 +15,8 @@ export default function WhatCanIHelpYouWith() {
           <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-12">
             <div className="lg:w-1/2">
               <img
-                width="600"
-                height="360"
+                width="960"
+                height="576"
                 src={restaurovaniNabytku}
                 alt="Restarování nábytku"
                 className="block w-full transition-opacity duration-300 lg:opacity-75 lg:group-hover:opacity-100"
@@ -38,8 +38,8 @@ export default function WhatCanIHelpYouWith() {
           <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-12 lg:space-x-reverse">
             <div className="lg:w-1/2">
               <img
-                width="600"
-                height="360"
+                width="960"
+                height="576"
                 src={pozlacovaniAPolychromie}
                 alt="Pozlacování a polychromie"
                 className="block w-full transition-opacity duration-300 lg:opacity-75 lg:group-hover:opacity-100"
@@ -60,8 +60,8 @@ export default function WhatCanIHelpYouWith() {
           <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-12">
             <div className="lg:w-1/2">
               <img
-                width="600"
-                height="360"
+                width="960"
+                height="576"
                 src={rezbaVolnaTvorba}
                 alt="Řezba volná tvorba"
                 className="block w-full transition-opacity duration-300 lg:opacity-75 lg:group-hover:opacity-100"
