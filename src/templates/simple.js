@@ -14,19 +14,25 @@ export default function Simple({
 
   return (
     <Layout title={title} hideFooter>
-      <Section>
-        <PageTitle>{item.title}</PageTitle>
-        <Swipeable
-          onSwipedLeft={() => navigate(prevItemLink)}
-          onSwipedRight={() => navigate(nextItemLink)}
-        >
+      <Swipeable
+        onSwipedLeft={() => navigate(prevItemLink)}
+        onSwipedRight={() => navigate(nextItemLink)}
+      >
+        <Section>
+          <PageTitle>{item.title}</PageTitle>
           <div className="flex flex-col items-center mt-8 space-y-10">
             {item.images.map((image, index) => (
-              <img key={index} src={image} alt={item.title} />
+              <img
+                width={image.width}
+                height={image.height}
+                key={index}
+                src={image.src}
+                alt={item.title}
+              />
             ))}
           </div>
-        </Swipeable>
-      </Section>
+        </Section>
+      </Swipeable>
     </Layout>
   )
 }

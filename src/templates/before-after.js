@@ -14,17 +14,23 @@ export default function BeforeAfter({
 
   return (
     <Layout title={title} hideFooter>
-      <Section>
-        <PageTitle>{item.title}</PageTitle>
-        <Swipeable
-          onSwipedLeft={() => navigate(prevItemLink)}
-          onSwipedRight={() => navigate(nextItemLink)}
-        >
+      <Swipeable
+        onSwipedLeft={() => navigate(prevItemLink)}
+        onSwipedRight={() => navigate(nextItemLink)}
+      >
+        <Section>
+          <PageTitle>{item.title}</PageTitle>
           <div className="grid items-center gap-12 mt-8 lg:grid-cols-2">
             <div>
               <div className="flex flex-col items-center space-y-10">
                 {item.before.map((image, index) => (
-                  <img key={index} src={image} alt={item.title} />
+                  <img
+                    key={index}
+                    width={image.width}
+                    height={image.height}
+                    src={image.src}
+                    alt={item.title}
+                  />
                 ))}
               </div>
               <span className="inline-block w-full mt-2 text-center text-gray-800">
@@ -34,7 +40,13 @@ export default function BeforeAfter({
             <div>
               <div className="flex flex-col items-center space-y-10">
                 {item.after.map((image, index) => (
-                  <img key={index} src={image} alt={item.title} />
+                  <img
+                    key={index}
+                    width={image.width}
+                    height={image.height}
+                    src={image.src}
+                    alt={item.title}
+                  />
                 ))}
               </div>
               <span className="inline-block w-full mt-2 text-center text-gray-800">
@@ -42,8 +54,8 @@ export default function BeforeAfter({
               </span>
             </div>
           </div>
-        </Swipeable>
-      </Section>
+        </Section>
+      </Swipeable>
     </Layout>
   )
 }

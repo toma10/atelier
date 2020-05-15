@@ -21,9 +21,12 @@ export default function Home() {
                 key={item.id}
               >
                 <img
-                  className="mx-auto"
-                  src={item.thumbnail}
+                  width={item.thumbnail.width}
+                  height={item.thumbnail.height}
+                  src={item.thumbnail.src}
                   alt={item.title}
+                  className="mx-auto"
+                  loading="lazy"
                 />
               </Link>
             ))}
