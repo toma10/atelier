@@ -1,48 +1,20 @@
+const defaultConfig = require("tailwindcss/defaultConfig")
+
 module.exports = {
   purge: ["./src/**/*.js"],
   theme: {
-    fontFamily: {
-      sans: [
-        "Raleway",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Segoe UI"',
-        "Roboto",
-        '"Helvetica Neue"',
-        "Arial",
-        '"Noto Sans"',
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
-      serif: [
-        "Roboto",
-        "Georgia",
-        "Cambria",
-        '"Times New Roman"',
-        "Times",
-        "serif",
-      ],
-      mono: [
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        '"Liberation Mono"',
-        '"Courier New"',
-        "monospace",
-      ],
-    },
     extend: {
       maxWidth: {
         container: "126rem",
       },
+      fontFamily: {
+        sans: ["Raleway", ...defaultConfig.theme.fontFamily.sans],
+        serif: ["Roboto", ...defaultConfig.theme.fontFamily.serif],
+      },
     },
   },
   variants: {
-    opacity: ["responsive", "hover", "focus", "group-hover"],
+    opacity: [...defaultConfig.variants.opacity, "group-hover"],
   },
   plugins: [require("@tailwindcss/ui")],
 }
