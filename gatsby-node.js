@@ -12,7 +12,7 @@ exports.createPages = ({ actions }) => {
   const simpleTemplate = path.resolve("./src/templates/simple.js")
 
   sortByOrder(restaurovaniNabytku.data).forEach((item, index, items) => {
-    const path = `restaurovani-nabytku/${item.id}`
+    const path = `/restaurovani-nabytku/${item.id}`
 
     createPage({
       path,
@@ -20,14 +20,14 @@ exports.createPages = ({ actions }) => {
       context: {
         item,
         title: "Restaurování nábytku",
-        prevItemLink: `restaurovani-nabytku/${getPrevItem(items, index).id}`,
-        nextItemLink: `restaurovani-nabytku/${getNextItem(items, index).id}`,
+        prevItemLink: `/restaurovani-nabytku/${getPrevItem(items, index).id}`,
+        nextItemLink: `/restaurovani-nabytku/${getNextItem(items, index).id}`,
       },
     })
   })
 
   sortByOrder(pozlacovaniAPolychromie.data).forEach((item, index, items) => {
-    const path = `pozlacovani-a-polychromie/${item.id}`
+    const path = `/pozlacovani-a-polychromie/${item.id}`
 
     createPage({
       path,
@@ -35,10 +35,10 @@ exports.createPages = ({ actions }) => {
       context: {
         item,
         title: "Pozlacování a polychromie",
-        prevItemLink: `pozlacovani-a-polychromie/${
+        prevItemLink: `/pozlacovani-a-polychromie/${
           getPrevItem(items, index).id
         }`,
-        nextItemLink: `pozlacovani-a-polychromie/${
+        nextItemLink: `/pozlacovani-a-polychromie/${
           getNextItem(items, index).id
         }`,
       },
@@ -46,7 +46,7 @@ exports.createPages = ({ actions }) => {
   })
 
   sortByOrder(rezbaVolnaTvorba.data).forEach((item, index, items) => {
-    const path = `rezba-volna-tvorba/${item.id}`
+    const path = `/rezba-volna-tvorba/${item.id}`
 
     createPage({
       path,
@@ -54,8 +54,8 @@ exports.createPages = ({ actions }) => {
       context: {
         item,
         title: "Řezba volná tvorba",
-        prevItemLink: `rezba-volna-tvorba/${getPrevItem(items, index).id}`,
-        nextItemLink: `rezba-volna-tvorba/${getNextItem(items, index).id}`,
+        prevItemLink: `/rezba-volna-tvorba/${getPrevItem(items, index).id}`,
+        nextItemLink: `/rezba-volna-tvorba/${getNextItem(items, index).id}`,
       },
     })
   })
