@@ -15,52 +15,52 @@ export default function BeforeAfter({
   useKeyPress("Escape", () => navigate(returnLink))
 
   return (
-    <Swipeable
-      onSwipedLeft={() => navigate(prevItemLink)}
-      onSwipedRight={() => navigate(nextItemLink)}
-    >
-      <Page title={title} hideFooter>
-        <Container>
-          <div className="py-12 lg:py-20">
-            <CloseLink to={returnLink} />
-            <PageTitle>{item.title}</PageTitle>
-            <div className="grid items-center gap-6 mt-8 md:gap-12 lg:grid-cols-2">
-              <div>
-                <div className="flex flex-col items-center space-y-10">
-                  {item.before.map((image, index) => (
-                    <img
-                      key={index}
-                      width={image.width}
-                      height={image.height}
-                      src={image.src}
-                      alt={item.title}
-                    />
-                  ))}
-                </div>
-                <span className="inline-block w-full mt-2 text-center text-gray-800">
-                  Před
-                </span>
+    <Page title={title} hideFooter>
+      <Swipeable
+        onSwipedLeft={() => navigate(prevItemLink)}
+        onSwipedRight={() => navigate(nextItemLink)}
+        className="fixed inset-0"
+      />
+      <Container>
+        <div className="py-12 lg:py-20">
+          <CloseLink to={returnLink} />
+          <PageTitle>{item.title}</PageTitle>
+          <div className="grid items-center gap-6 mt-8 md:gap-12 lg:grid-cols-2">
+            <div>
+              <div className="flex flex-col items-center space-y-10">
+                {item.before.map((image, index) => (
+                  <img
+                    key={index}
+                    width={image.width}
+                    height={image.height}
+                    src={image.src}
+                    alt={item.title}
+                  />
+                ))}
               </div>
-              <div>
-                <div className="flex flex-col items-center space-y-10">
-                  {item.after.map((image, index) => (
-                    <img
-                      key={index}
-                      width={image.width}
-                      height={image.height}
-                      src={image.src}
-                      alt={item.title}
-                    />
-                  ))}
-                </div>
-                <span className="inline-block w-full mt-2 text-center text-gray-800">
-                  Po
-                </span>
+              <span className="inline-block w-full mt-2 text-center text-gray-800">
+                Před
+              </span>
+            </div>
+            <div>
+              <div className="flex flex-col items-center space-y-10">
+                {item.after.map((image, index) => (
+                  <img
+                    key={index}
+                    width={image.width}
+                    height={image.height}
+                    src={image.src}
+                    alt={item.title}
+                  />
+                ))}
               </div>
+              <span className="inline-block w-full mt-2 text-center text-gray-800">
+                Po
+              </span>
             </div>
           </div>
-        </Container>
-      </Page>
-    </Swipeable>
+        </div>
+      </Container>
+    </Page>
   )
 }
