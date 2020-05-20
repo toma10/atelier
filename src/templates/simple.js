@@ -12,6 +12,7 @@ export default function Simple({
 }) {
   useKeyPress("ArrowLeft", () => navigate(prevItemLink))
   useKeyPress("ArrowRight", () => navigate(nextItemLink))
+  useKeyPress("Escape", () => navigate(returnLink))
 
   return (
     <Swipeable
