@@ -30,6 +30,7 @@ export default function BeforeAfter({
               <div className="flex flex-col items-center space-y-10">
                 {item.before.map((image, index) => (
                   <img
+                    className="w-auto max-h-image"
                     key={index}
                     width={image.width}
                     height={image.height}
@@ -46,6 +47,7 @@ export default function BeforeAfter({
               <div className="flex flex-col items-center space-y-10">
                 {item.after.map((image, index) => (
                   <img
+                    className="w-auto max-h-image"
                     key={index}
                     width={image.width}
                     height={image.height}

@@ -28,6 +28,7 @@ export default function Simple({
           <div className="flex flex-col items-center mt-8 space-y-10">
             {item.images.map((image, index) => (
               <img
+                className="w-auto max-h-image"
                 width={image.width}
                 height={image.height}
                 key={index}
