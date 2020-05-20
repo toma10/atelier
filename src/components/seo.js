@@ -27,6 +27,9 @@ const SEO = ({ title }) => {
       title={seo.title}
       titleTemplate={title ? titleTemplate : ""}
       htmlAttributes={{ lang: "cs" }}
+      bodyAttributes={{
+        class: "antialiased",
+      }}
     >
       <meta name="description" content={seo.description} />
       {seo.url && <meta property="og:url" content={seo.url} />}
