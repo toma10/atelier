@@ -24,7 +24,7 @@ export default function BeforeAfter({
           <div className="py-12 lg:py-20">
             <CloseLink to={returnLink} />
             <PageTitle>{item.title}</PageTitle>
-            <div className="grid items-center gap-12 mt-8 lg:grid-cols-2">
+            <div className="grid items-center gap-6 mt-8 md:gap-12 lg:grid-cols-2">
               <div>
                 <div className="flex flex-col items-center space-y-10">
                   {item.before.map((image, index) => (
