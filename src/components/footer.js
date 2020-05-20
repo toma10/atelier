@@ -19,23 +19,25 @@ const ButtonLink = props => (
 
 export default function Footer() {
   return (
-    <div className="py-10 text-white bg-indigo-700">
-      <Container>
-        <div className="flex flex-col items-center lg:flex-row lg:justify-between">
-          <Link to="/" className="flex items-center flex-shrink-0 space-x-3">
-            <Logo fill="#fff" />
-            <span className="font-semibold">AteliérRestaurování.cz</span>
-          </Link>
-          <div className="hidden space-x-6 text-sm lg:block">
-            <NavLink to="/restaurovani-nabytku">Restaurování nábytku</NavLink>
-            <NavLink to="/pozlacovani-a-polychromie">
-              Pozlacování a polychromie
-            </NavLink>
-            <NavLink to="/rezba-volna-tvorba">Řezba volná tvorba</NavLink>
-            <ButtonLink to="/#kontakt">Kontakt</ButtonLink>
+    <footer>
+      <div className="py-10 text-white bg-indigo-700">
+        <Container>
+          <div className="flex flex-col items-center lg:flex-row lg:justify-between">
+            <Link to="/" className="flex items-center flex-shrink-0 space-x-3">
+              <Logo fill="#fff" />
+              <span className="font-semibold">AteliérRestaurování.cz</span>
+            </Link>
+            <div className="hidden space-x-6 text-sm lg:block">
+              <NavLink to="/restaurovani-nabytku">Restaurování nábytku</NavLink>
+              <NavLink to="/pozlacovani-a-polychromie">
+                Pozlacování a polychromie
+              </NavLink>
+              <NavLink to="/rezba-volna-tvorba">Řezba volná tvorba</NavLink>
+              <ButtonLink to="/#kontakt">Kontakt</ButtonLink>
+            </div>
           </div>
-        </div>
-      </Container>
-    </div>
+        </Container>
+      </div>
+    </footer>
   )
 }

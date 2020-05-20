@@ -22,6 +22,7 @@ exports.createPages = ({ actions }) => {
         title: "Restaurování nábytku",
         prevItemLink: `/restaurovani-nabytku/${getPrevItem(items, index).id}`,
         nextItemLink: `/restaurovani-nabytku/${getNextItem(items, index).id}`,
+        returnLink: "/restaurovani-nabytku",
       },
     })
   })
@@ -41,6 +42,7 @@ exports.createPages = ({ actions }) => {
         nextItemLink: `/pozlacovani-a-polychromie/${
           getNextItem(items, index).id
         }`,
+        returnLink: "/pozlacovani-a-polychromie",
       },
     })
   })
@@ -56,6 +58,7 @@ exports.createPages = ({ actions }) => {
         title: "Řezba volná tvorba",
         prevItemLink: `/rezba-volna-tvorba/${getPrevItem(items, index).id}`,
         nextItemLink: `/rezba-volna-tvorba/${getNextItem(items, index).id}`,
+        returnLink: "/rezba-volna-tvorba",
       },
     })
   })
