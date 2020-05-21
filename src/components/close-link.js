@@ -17,9 +17,8 @@ function CloseIcon() {
 export default function CloseLink({ to }) {
   return (
     <div className="fixed xl:flex xl:justify-end xl:relative right-8 xl:right-auto xl:bottom-auto bottom-6">
-        <div className="block w-10 h-10 p-1 text-gray-700 bg-white rounded-full opacity-75 md:w-12 md:h-12 lg:w-16 lg:h-16 lg:opacity-100">
-          <Close />
       <Link to={to} aria-label="Vrátit se zpět">
+        <div className="block w-10 h-10 p-1 text-gray-700 bg-white rounded-full opacity-75 lg:ease-in-out md:w-12 md:h-12 lg:w-16 lg:h-16 lg:opacity-75 lg:hover:opacity-100 lg:transition-opacity lg:duration-200">
           <CloseIcon />
         </div>
       </Link>
