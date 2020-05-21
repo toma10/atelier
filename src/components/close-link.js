@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-function Close() {
+function CloseIcon() {
   return (
     <svg className="w-full h-auto" fill="currentColor" viewBox="0 0 20 20">
       <path
@@ -20,6 +20,7 @@ export default function CloseLink({ to }) {
       <Link to={to}>
         <div className="block w-10 h-10 p-1 text-gray-700 bg-white rounded-full opacity-75 md:w-12 md:h-12 lg:w-16 lg:h-16 lg:opacity-100">
           <Close />
+          <CloseIcon />
         </div>
       </Link>
     </div>
