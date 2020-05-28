@@ -1,9 +1,28 @@
+import { graphql, useStaticQuery } from "gatsby"
+
+import Img from "gatsby-image"
 import React from "react"
 import Section from "./section"
-import heroAfter from "@images/hero-after.jpg"
-import heroBefore from "@images/hero-before.jpg"
 
 export default function Hero() {
+  const images = useStaticQuery(graphql`
+    query {
+      before: file(relativePath: { eq: "hero-before.jpg" }) {
+        childImageSharp {
+          fixed {
+            ...GatsbyImageSharpFixed_withWebp
+          }
+        }
+      }
+      after: file(relativePath: { eq: "hero-after.jpg" }) {
+        childImageSharp {
+          fixed {
+            ...GatsbyImageSharpFixed_withWebp
+          }
+        }
+      }
+    }
+  `)
   return (
     <Section>
       <div className="flex flex-col items-center space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0 group">
@@ -22,20 +41,19 @@ export default function Hero() {
         </div>
         <div className="lg:w-1/2">
           <div className="relative w-full max-w-xs">
-            <img
-              width="320"
-              height="320"
-              src={heroBefore}
-              alt="Taburet před restaurování a pozlacení"
-              className="relative hidden w-full lg:block lg:z-1"
-            />
-            <img
-              width="320"
-              height="320"
-              src={heroAfter}
-              alt="Taburet po restaurování a pozlacení"
-              className="w-full lg:inset-0 lg:opacity-0 lg:absolute lg:transition-opacity lg:duration-1000 lg:delay-200 lg:z-2 lg:group-hover:opacity-100"
-            />
+            <div className="relative hidden w-full lg:block lg:z-1">
+              <Img
+                fixed={images.before.childImageSharp.fixed}
+                alt="Taburet před restaurování a pozlacení"
+              />
+            </div>
+            <div className="w-full lg:inset-0 lg:opacity-0 lg:absolute lg:transition-opacity lg:duration-1000 lg:delay-200 lg:z-2 lg:group-hover:opacity-100">
+              <Img
+                fixed={images.after.childImageSharp.fixed}
+                className=""
+                alt="Taburet po restaurování a pozlacení"
+              />
+            </div>
           </div>
         </div>
       </div>
