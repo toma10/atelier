@@ -5,7 +5,7 @@ module.exports = {
     title: "AteliérRestaurování.cz",
     titleTemplate: "%s - AteliérRestaurování.cz",
     description: "AteliérRestaurování.cz - restaurování nábytku Oldřich Oškera",
-    url: "http://atelier-restaurovani.cz",
+    url: "https://atelier-restaurovani.cz",
   },
   plugins: [
     {
