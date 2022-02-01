@@ -27,7 +27,7 @@ export default function Home() {
                     height={item.thumbnail.height}
                     src={item.thumbnail.src}
                     alt={item.title}
-                    className="mx-auto"
+                    className="mx-auto bg-gray-100"
                     loading="lazy"
                   />
                 </Link>
