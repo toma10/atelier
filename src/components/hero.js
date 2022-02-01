@@ -27,12 +27,12 @@ export default function Hero() {
     <Section>
       <div className="flex flex-col items-center space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0 group">
         <div className="lg:w-1/2">
-          <h5 className="text-3xl font-semibold text-center text-gray-900 lg:text-left">
+          <h2 className="text-3xl font-semibold text-center text-gray-900 lg:text-left">
             Chcete zrestaurovat nábytek?
-          </h5>
-          <h6 className="text-2xl text-center text-gray-800 lg:text-left">
+          </h2>
+          <h3 className="text-2xl text-center text-gray-800 lg:text-left">
             Vyřezat objekt ze dřeva?
-          </h6>
+          </h3>
           <p className="max-w-2xl mt-8 font-serif tracking-wide text-center text-gray-700 lg:mt-4 lg:text-left">
             Restaurování kulturních památek v rozsahu nepolychromovaných
             nefigurálních uměleckořemeslných děl ze dřeva – historického
