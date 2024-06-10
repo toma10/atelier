@@ -22,7 +22,7 @@ export default function BeforeAfter({
         className="fixed inset-0"
       />
       <Container>
-        <div className="py-12">
+        <div className="pt-8 pb-12 lg:pt-12">
           <CloseLink to={returnLink} />
           <PageTitle>{item.title}</PageTitle>
           <div className="grid items-center gap-6 mt-8 sm:gap-10 md:gap-12 lg:gap-16 lg:grid-cols-2">

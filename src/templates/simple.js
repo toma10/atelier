@@ -22,7 +22,7 @@ export default function Simple({
         className="fixed inset-0"
       />
       <Container>
-        <div className="py-12">
+        <div className="pt-8 pb-12 lg:pt-12">
           <CloseLink to={returnLink} />
           <PageTitle>{item.title}</PageTitle>
           <div className="flex flex-col items-center mt-8 space-y-10">
