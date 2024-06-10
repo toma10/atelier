@@ -9,6 +9,7 @@ module.exports = {
       },
       maxHeight: {
         image: "calc(100vh - 6rem)",
+        'image-l': "calc(100vh - 18rem)",
       },
       fontFamily: {
         sans: ["Raleway", ...defaultConfig.theme.fontFamily.sans],

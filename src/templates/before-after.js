@@ -22,15 +22,15 @@ export default function BeforeAfter({
         className="fixed inset-0"
       />
       <Container>
-        <div className="py-12 lg:py-20">
+        <div className="py-12">
           <CloseLink to={returnLink} />
           <PageTitle>{item.title}</PageTitle>
-          <div className="grid items-center gap-6 mt-8 md:gap-12 lg:grid-cols-2">
+          <div className="grid items-center gap-6 mt-8 sm:gap-10 md:gap-12 lg:gap-16 lg:grid-cols-2">
             <div>
-              <div className="flex flex-col items-center space-y-10">
+              <div className="flex flex-col items-center lg:items-end space-y-10">
                 {item.before.map((image, index) => (
                   <img
-                    className="w-auto max-h-image"
+                    className="w-auto max-h-image lg:max-h-image-l"
                     key={index}
                     width={image.width}
                     height={image.height}
@@ -39,15 +39,12 @@ export default function BeforeAfter({
                   />
                 ))}
               </div>
-              <span className="inline-block w-full mt-2 text-center text-gray-800">
-                Před
-              </span>
             </div>
             <div>
-              <div className="flex flex-col items-center space-y-10">
+              <div className="flex flex-col items-center lg:items-start space-y-10">
                 {item.after.map((image, index) => (
                   <img
-                    className="w-auto max-h-image"
+                    className="w-auto max-h-image lg:max-h-image-l"
                     key={index}
                     width={image.width}
                     height={image.height}
@@ -56,9 +53,6 @@ export default function BeforeAfter({
                   />
                 ))}
               </div>
-              <span className="inline-block w-full mt-2 text-center text-gray-800">
-                Po
-              </span>
             </div>
           </div>
         </div>

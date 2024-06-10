@@ -22,13 +22,13 @@ export default function Simple({
         className="fixed inset-0"
       />
       <Container>
-        <div className="py-12 lg:py-20">
+        <div className="py-12">
           <CloseLink to={returnLink} />
           <PageTitle>{item.title}</PageTitle>
           <div className="flex flex-col items-center mt-8 space-y-10">
             {item.images.map((image, index) => (
               <img
-                className="w-auto max-h-image"
+                className="w-auto max-h-image lg:max-h-image-l"
                 width={image.width}
                 height={image.height}
                 key={index}
