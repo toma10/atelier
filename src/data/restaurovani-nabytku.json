@@ -531,7 +531,7 @@
     {
       "id": "f23",
       "order": 30,
-      "title": "Hodiny s alabastrovými sloupky",
+      "title": "Hodiny s alabastrovými sloupky",
       "thumbnail": {
         "src": "https://res.cloudinary.com/toma10/image/upload/v1588779952/atelier-restaurovani.cz/restaurovani-nabytku/tn_f23.jpg",
         "width": 512,
@@ -579,7 +579,7 @@
     {
       "id": "f27",
       "order": 19,
-      "title": "Hráčský stůl s otočným barem",
+      "title": "Hráčský stůl s otočným barem",
       "thumbnail": {
         "src": "https://res.cloudinary.com/toma10/image/upload/v1588779952/atelier-restaurovani.cz/restaurovani-nabytku/tn_f27.jpg",
         "width": 512,
@@ -837,6 +837,366 @@
           "src": "https://res.cloudinary.com/toma10/image/upload/v1588779952/atelier-restaurovani.cz/restaurovani-nabytku/f38-after.jpg",
           "width": 960,
           "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "f39",
+      "order": 50,
+      "title": "Psací stůl",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077590/atelier-restaurovani.cz/restaurovani-nabytku/tn_f39.jpg",
+        "width": 512,
+        "height": 341
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077530/atelier-restaurovani.cz/restaurovani-nabytku/f39-before.jpg",
+          "width": 960,
+          "height": 272
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077530/atelier-restaurovani.cz/restaurovani-nabytku/f39-after.jpg",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "f40",
+      "order": 49,
+      "title": "Židle",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077590/atelier-restaurovani.cz/restaurovani-nabytku/tn_f40.jpg",
+        "width": 512,
+        "height": 768
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077530/atelier-restaurovani.cz/restaurovani-nabytku/f40-before.jpg",
+          "width": 960,
+          "height": 1440
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077530/atelier-restaurovani.cz/restaurovani-nabytku/f40-after.jpg",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "f41",
+      "order": 48,
+      "title": "Židle",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077591/atelier-restaurovani.cz/restaurovani-nabytku/tn_f41.jpg",
+        "width": 512,
+        "height": 768
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077534/atelier-restaurovani.cz/restaurovani-nabytku/f41-before.jpg",
+          "width": 960,
+          "height": 1440
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077531/atelier-restaurovani.cz/restaurovani-nabytku/f41-after.jpg",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "f42",
+      "order": 47,
+      "title": "Židle",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077591/atelier-restaurovani.cz/restaurovani-nabytku/tn_f42.jpg",
+        "width": 512,
+        "height": 485
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f42-before.jpg",
+          "width": 960,
+          "height": 821
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f42-after.jpg",
+          "width": 960,
+          "height": 909
+        }
+      ]
+    },
+    {
+      "id": "f43",
+      "order": 46,
+      "title": "Truhla s fasádou komody",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f43.jpg",
+        "width": 512,
+        "height": 341
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f43-before.jpg",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f43-after.jpg",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "f44",
+      "order": 45,
+      "title": "Truhla malovaná",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f44.jpg",
+        "width": 512,
+        "height": 410
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f44-before.jpg",
+          "width": 960,
+          "height": 772
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f44-after.jpg",
+          "width": 960,
+          "height": 770
+        }
+      ]
+    },
+    {
+      "id": "f45",
+      "order": 44,
+      "title": "Komoda fládrovaná",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f45.jpg",
+        "width": 512,
+        "height": 434
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f45-before.jpg",
+          "width": 960,
+          "height": 760
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f45-after.jpg",
+          "width": 960,
+          "height": 814
+        }
+      ]
+    },
+    {
+      "id": "f46",
+      "order": 43,
+      "title": "Postel",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f46.jpg",
+        "width": 512,
+        "height": 343
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f46-before.jpg",
+          "width": 960,
+          "height": 579
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f46-after.jpg",
+          "width": 960,
+          "height": 644
+        }
+      ]
+    },
+    {
+      "id": "f47",
+      "order": 42,
+      "title": "Šicí stroj",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f47.jpg",
+        "width": 512,
+        "height": 717
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f47-before.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f47-after.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ]
+    },
+    {
+      "id": "f48",
+      "order": 41,
+      "title": "Psací stůl",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f48.jpg",
+        "width": 512,
+        "height": 495
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f48-before.jpg",
+          "width": 960,
+          "height": 1440
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f48-after.jpg",
+          "width": 960,
+          "height": 928
+        }
+      ]
+    },
+    {
+      "id": "f49",
+      "order": 40,
+      "title": "Kredenc",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f49.jpg",
+        "width": 512,
+        "height": 717
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f49-before.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f49-after.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ]
+    },
+    {
+      "id": "f50",
+      "order": 39,
+      "title": "Skříň",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f50.jpg",
+        "width": 512,
+        "height": 717
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f50-before.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f50-after.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ]
+    },
+    {
+      "id": "f51",
+      "order": 38,
+      "title": "Dveře kostelní",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f51.jpg",
+        "width": 512,
+        "height": 724
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f51-before.jpg",
+          "width": 960,
+          "height": 1344
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f51-after.jpg",
+          "width": 960,
+          "height": 1357
+        }
+      ]
+    },
+    {
+      "id": "f52",
+      "order": 37,
+      "title": "Hodinová skříň",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f52.jpg",
+        "width": 512,
+        "height": 895
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f52-before.jpg",
+          "width": 960,
+          "height": 1649
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f52-after.jpg",
+          "width": 960,
+          "height": 1679
+        }
+      ]
+    },
+    {
+      "id": "f53",
+      "order": 36,
+      "title": "Dveře kaple",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/toma10/image/upload/v1717077594/atelier-restaurovani.cz/restaurovani-nabytku/tn_f53.jpg",
+        "width": 512,
+        "height": 717
+      },
+      "before": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077543/atelier-restaurovani.cz/restaurovani-nabytku/f53-before.jpg",
+          "width": 960,
+          "height": 1353
+        }
+      ],
+      "after": [
+        {
+          "src": "https://res.cloudinary.com/toma10/image/upload/v1717077535/atelier-restaurovani.cz/restaurovani-nabytku/f53-after.jpg",
+          "width": 960,
+          "height": 1344
         }
       ]
     }
